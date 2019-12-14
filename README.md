@@ -1,24 +1,30 @@
-# README
+# Getting Started with Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the blog application made in the [Getting Started with Rails guide](https://guides.rubyonrails.org/v6.0.0/getting_started.html)
+for Ruby on Rails v6.0.0.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+- Ruby 2.5.0 or later
+- SQLite3
 
-* System dependencies
+## Starting the blog application
 
-* Configuration
+Install dependencies:
+```
+bundle install
+```
 
-* Database creation
+Create database and tables:
+```
+bundle exec rake db:create db:migrate
+```
 
-* Database initialization
+Start the development server:
+```
+rails server
+```
 
-* How to run the test suite
+## License
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Unlicense
